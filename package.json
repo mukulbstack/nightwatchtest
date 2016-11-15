@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/mukulbstack/nightwatchtest#readme",
   "dependencies": {
-    "browserstack-patch": "github:browserstack/browserstack-integration-nodejs"
+    "browserstack-patch": "github:browserstack/browserstack-integration-nodejs",
+    "nightwatch": "^0.9.8"
   }
 }
