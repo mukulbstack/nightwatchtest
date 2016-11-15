@@ -1,0 +1,25 @@
+{
+  "name": "nightwatchtest",
+  "version": "1.0.0",
+  "description": "Nightwatch Sample Repo",
+  "main": "googleDemoTest.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mukulbstack/nightwatchtest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mukulbstack/nightwatchtest/issues"
+  },
+  "homepage": "https://github.com/mukulbstack/nightwatchtest#readme",
+  "dependencies": {
+    "browserstack-patch": "github:browserstack/browserstack-integration-nodejs"
+  }
+}
