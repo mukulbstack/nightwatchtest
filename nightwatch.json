@@ -8,11 +8,11 @@
 
   "selenium" : {
     "start_process" : true,
-    "server_path" : "/Users/mukulg/Documents/code/testing/nightwatch/bin/selenium-server-standalone-2.53.1.jar",
+    "server_path" : "./bin/selenium-server-standalone-2.53.1.jar",
     "log_path" : "",
     "port" : 4444,
     "cli_args" : {
-      "webdriver.chrome.driver" : "/Users/mukulg/Documents/code/testing/nightwatch/bin/chromedriver",
+      "webdriver.chrome.driver" : "./bin/chromedriver",
       "webdriver.gecko.driver" : "",
       "webdriver.edge.driver" : ""
     }

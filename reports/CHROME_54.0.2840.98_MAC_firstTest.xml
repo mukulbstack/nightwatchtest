@@ -5,13 +5,13 @@
 
   <testsuite name="firstTest"
     errors="0" failures="1" hostname="" id="" package="firstTest" skipped="0"
-    tests="1" time="7.613" timestamp="Tue, 15 Nov 2016 11:20:11 GMT">
+    tests="1" time="9.176" timestamp="Tue, 15 Nov 2016 14:02:48 GMT">
   
-    <testcase name="Demo test Google" time="7.613" assertions="3">
+    <testcase name="Demo test Google" time="9.176" assertions="3">
 
     
 
-      <failure message="Testing if element &lt;#main&gt; contains text: &quot;Night Watch&quot;.">    at Object.Demo test Google (/Users/mukulg/Documents/code/testing/nightwatch/tests/firstTest.js:11:15)
+      <failure message="Testing if element &lt;#main&gt; contains text: &quot;Night Watch&quot;.">    at Object.Demo test Google (/Users/mukulg/Documents/code/testing/nightwatchtest/tests/firstTest.js:11:15)
     at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
 
     
