@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="1"
+            tests="1">
+
+  <testsuite name="firstTest"
+    errors="1" failures="1" hostname="" id="" package="firstTest" skipped="0"
+    tests="1" time="43.92" timestamp="Wed, 16 Nov 2016 15:25:05 GMT">
+  
+    <testcase name="Demo test Google" time="43.92" assertions="3">
+
+    
+
+      <failure message="Testing if element &lt;#main&gt; contains text: &quot;Night Watch&quot;.">    at Object.Demo test Google (/Users/mukulg/Documents/code/testing/nightwatchtest/tests/firstTest.js:11:15)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)</failure>
+
+    
+    </testcase>
+      <system-err>
+        ERROR: Unable to locate element: &quot;input[type=text]&quot; using: css selector
+    at Object.Demo test Google (/Users/mukulg/Documents/code/testing/nightwatchtest/tests/firstTest.js:7:8)
+    at Module.call (/usr/local/lib/node_modules/nightwatch/lib/runner/module.js:62:34)
+    at /usr/local/lib/node_modules/nightwatch/lib/runner/testcase.js:70:29
+    at _fulfilled (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:834:54)
+    at self.promiseDispatch.done (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:863:30)
+    at Promise.promise.promiseDispatch (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:796:13)
+    at /usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:556:49
+    at runSingle (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:137:13)
+    at flush (/usr/local/lib/node_modules/nightwatch/node_modules/q/q.js:125:13)
+    at _combinedTickCallback (internal/process/next_tick.js:67:7)
+      </system-err>
+  
+  
+  </testsuite>
+</testsuites>
